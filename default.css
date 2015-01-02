@@ -1,7 +1,12 @@
 html {
   background-color: #708090;
   color: white;
+  font-family: 'Oswald';
   font-size: 20px;
+}
+
+body {
+
 }
 
 #header {
@@ -24,4 +29,24 @@ ul {
   padding-right: 0px;
   color: white;
   float: left;
+}
+
+#content {
+
+}
+
+#border {
+
+}
+
+.blogposts {
+
+}
+
+#rightsidebar {
+
+}
+
+#footer {
+
 }
