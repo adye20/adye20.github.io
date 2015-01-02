@@ -1,8 +1,27 @@
-header {
-  font-family: 'Oswald';
-  background-color: teal;
+html {
+  background-color: #708090;
+  color: white;
+  font-size: 20px;
 }
 
-h1 {
-  color: black;
+#header{
+height: 100px;
+width: 1000px;
+margin-top: 30px;
+font-size: 35px;
+}
+
+#nav {
+height: 30px;
+width: 1000px;
+margin-top: 30px;
+font-size: 20px;
+}
+
+ul{
+  height: 45px;
+  width: 500px;
+  padding-right: 0px;
+  color: white;
+  float: left;
 }
