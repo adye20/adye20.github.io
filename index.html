@@ -7,71 +7,70 @@
       <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <head>
 
-    <!--sharks background and nav buttons-->
-    <header>
-      <p>
-        <img src="../adye20.github.io/sharksbackground.jpg"/>
-      </p>
-      <nav>
-        <a href="#">Portfolio</a>
-        <a href="#">Experience</a>
-        <a href="#">Blog</a>
-        <a href="#">About Me</a>
-        <a href="#">Contact</a>
-      </nav>
-    </header>
-
-    <hr />
-
-    <!--blog post body-->
     <body>
-      <center>
-        <p>Blog Post #1</p>
-        <p>Blog Post #2</p>
-        <p>Blog Post #3</p>
-      </center>
-    </body>
-
-    <!--left sidebar: trending projects-->
-    <section>
-      <p>
-        Trending projects:
-      </p>
-      <ol>
-        <li>
-          <a href="#">Project A</a>
-        </li>
-        <li>
-          <a href="#">Project B</a>
-        </li>
-        <li>
-          <a href="#">Project C</a>
-        </li>
-        <li>
-          <a href="#">Project D</a>
-        </li>
-        <li>
-          <a href="#">Project E</a>
-        </li>
-    </section>
-
-    <!--right side bar: search-->
-    <aside>
-      <form action="https://www.google.com/">
-          <input type="search" name"search" placeholder="Search" size="20" maxlength="40" />
-          <input type="submit" value=">" />
-      </form>
-    </aside>
+    <!--background and nav buttons-->
+      <div id="banner">
+        <img src="../adye20.github.io/sharksbackground.jpg"/>
+      </div>
+      <nav id="nav">
+        <ul>
+          <a href="#">Portfolio</a>
+          <a href="#">Experience</a>
+          <a href="#">Blog</a>
+          <a href="#">About Me</a>
+          <a href="#">Contact</a>
+        </ul>
+      </nav>
 
     <hr />
 
-    <!--footer links-->
-    <footer>
-      <center>
+      <!--blog posts-->
+      <div id="content">
+        <h3>Blog Posts</h3>
+      </div>
+      <div id="border">
+        <div class="blogposts">
+          <a href="blog/c1-chefs-kitchen.html">
+            <p>
+              Chef's Kitchen
+            <br>
+              December 13th, 2014
+            </p>
+          </a>
+          <a href="blog/t1-git-blog.html">
+            <p>
+              Git Blog
+            <br>
+              December 13th, 2014
+            </p>
+          </a>
+          <a href="#">
+            <p>
+              Blog #3
+            <br>
+              January 2nd, 2014
+            </p>
+          </a>
+        </div>
+      </div>
+
+
+      <!--right side bar: search-->
+      <div id="rightsidebar">
+        <form action="https://www.google.com/">
+            <input type="search" name="search" placeholder="Search" size="20" maxlength="40" />
+            <input type="submit" value=">" />
+        </form>
+      </div>
+
+      <hr />
+
+      <!--footer links-->
+      <div id="footer">
         <a href="https://twitter.com/adye20" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
         <a href="https://www.facebook.com/amdye" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
         <a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" /></a>
         <a href="mailto:adye20@gmail.com"><img src="http://www.simplesharebuttons.com/images/somacro/email.png" alt="Email" /></a>
-      </center>
-    </footer>
+      </div>
+    </body>
   </html>
