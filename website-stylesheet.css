@@ -5,13 +5,13 @@ html {
 }
 
 #header{
-height: 100px;
-width: 1000px;
-margin-top: 30px;
-font-size: 35px;
+  height: 100px;
+  width: 1000px;
+  margin-top: 30px;
+  font-size: 35px;
 }
 
-#nav {
+div#nav {
 height: 30px;
 width: 1000px;
 margin-top: 30px;
