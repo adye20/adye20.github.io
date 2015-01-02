@@ -15,7 +15,7 @@ body {
   height: 100px;
   width: 1000px;
   font-size: 35px;
-  padding-left: 50px;
+  padding-left: 420px;
   margin: auto;
   color: maroon;
 }
@@ -24,6 +24,7 @@ body {
   height: 30px;
   width: 1000px;
   font-size: 20px;
+  padding-left: 380px;
   margin: auto;
 }
 
@@ -43,7 +44,7 @@ ul {
 #content {
     padding-top: 50px;
 
-    padding-left: 104px;
+    padding-left: 250px;
     color: maroon;
 }
 
@@ -51,9 +52,9 @@ ul {
     border: 5px solid maroon;
 
     border-radius: 10px;
-    padding: 10px;
-    margin-left: 100px;
-    margin-right: 525px;
+    padding-left: 50px;
+    margin-left: 225px;
+    margin-right: 220px;
     text-align: left;
 }
 
@@ -62,15 +63,16 @@ ul {
 }
 
 #rightsidebar {
-    margin-left: 360px;
+    margin-left: 550px;
 
     margin-bottom: 10px;
     margin-top: 50px;
 }
 
 #footer {
-    padding-left: 300px;
+    padding-left: 495px;
 
+    padding-bottom: 20px;
 }
 
 a:link {
