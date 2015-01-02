@@ -1,4 +1,4 @@
-html {
+html
   background-color: #708090;
   color: white;
   font-family: 'Oswald';
@@ -16,7 +16,7 @@ body {
   font-size: 35px;
 }
 
-#nav {
+#navigation {
   height: 30px;
   width: 1000px;
   margin-top: 30px;
@@ -29,6 +29,11 @@ ul {
   padding-right: 0px;
   color: white;
   float: left;
+}
+
+.nav{
+  padding: 10px;
+  text-align:left;
 }
 
 #content {
@@ -49,4 +54,9 @@ ul {
 
 #footer {
 
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
 }
