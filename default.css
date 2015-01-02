@@ -3,31 +3,34 @@ html {
   color: white;
   font-family: 'Oswald';
   font-size: 20px;
+  margin: auto;
 }
 
 body {
+    margin: auto;
 
 }
 
 #header {
   height: 100px;
   width: 1000px;
-  margin-top: 30px;
   font-size: 35px;
+  padding-left: 50px;
+  margin: auto;
+  color: maroon;
 }
 
 #navigation {
   height: 30px;
   width: 1000px;
-  margin-top: 30px;
   font-size: 20px;
+  margin: auto;
 }
 
 ul {
   height: 45px;
   width: 500px;
   padding-right: 0px;
-  color: white;
   float: left;
 }
 
@@ -38,11 +41,20 @@ ul {
 }
 
 #content {
+    padding-top: 50px;
 
+    padding-left: 104px;
+    color: maroon;
 }
 
 #border {
+    border: 5px solid maroon;
 
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 525px;
+    text-align: left;
 }
 
 .blogposts {
@@ -50,10 +62,14 @@ ul {
 }
 
 #rightsidebar {
+    margin-left: 360px;
 
+    margin-bottom: 10px;
+    margin-top: 50px;
 }
 
 #footer {
+    padding-left: 300px;
 
 }
 
