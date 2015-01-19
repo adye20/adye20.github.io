@@ -23,14 +23,17 @@
     </p>
     <pre>
       >> teams = ['patriots', 'colts' 'seahawks', 'packers']
+
       >> teams.map {|team| teams.capitalize}
       => ["Patriots", "Colts", "Seahawks", "Packers"]
       # returns an array with capitalized strings
+
       >> team.each {|team| puts + ' are going to the conference championships'}
       => Patriots are going to the conference championships
       => Colts are going to the conference championships
       => Seahawks are going to the conference championships
       => Packers are going to the conference championships
+      # simply outputs each element in the array with added string
     </pre>
     <p>
       Note that calling the array 'teams' returns the original value and with no strings of the array capitalized. Now that we know how to #map is used, lets take a look a some examples.
