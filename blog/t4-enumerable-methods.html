@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Arrays and Hashes</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+</head>
+
+<main>
+  <h1>Enumerable Methods</h1>
+  <h2>Map Methods</h2>
+  <h4>January 18th, 2015</h4>
+
+  <section>
+    <p>
+      What is the map method? The map method is a method provide by the enumerable module. The map method inputs an enumerator and returns a new array with results calculated by the block.<!-- added 10px padding -->
+    </p>
+    <pre>
+      map {|object| block} => array
+    </pre>
+    <p>
+      How is #map used? #map is used to return a new calculated array without mutating the original array. This is not to be confused with #each which returns the array that calls it when a block is created.
+    </p>
+    <pre>
+      >> teams = ['patriots', 'colts' 'seahawks', 'packers']
+      >> teams.map {|team| teams.capitalize}
+      => ["Patriots", "Colts", "Seahawks", "Packers"]
+      # returns an array with capitalized strings
+      >> team.each {|team| puts + ' are going to the conference championships'}
+      => Patriots are going to the conference championships
+      => Colts are going to the conference championships
+      => Seahawks are going to the conference championships
+      => Packers are going to the conference championships
+    </pre>
+    <p>
+      Note that calling the array 'teams' returns the original value and with no strings of the array capitalized. Now that we know how to #map is used, lets take a look a some examples.
+    </p>
+    <pre>
+      >> array = [6,7,8]
+      >> array.map {|x| x*x}
+      => [36, 49, 64]
+
+      >> cities = ['chicago', 'miami', 'honolulu']
+      >> cities.map(&:capitalize.sort)
+      => ['Chicago', 'Miami', 'Honolulu']
+    </pre>
+    <p>
+      You might have noticed something new in the block created. '&' and ':capitalize' is a short hand way of saying capitalize each element of the array.
+    </p>
+    <p>
+      As you can imagine, #map is incredibly useful in transforming data and is one of the most commonly used methods in Ruby.
+    </p>
+  </section>
+</main>
+</html>
+
