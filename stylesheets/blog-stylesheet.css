@@ -1,11 +1,11 @@
 html {
-  background-color: gray;
+  background-color: #9E9EBF;
   color: black;
 }
 
 section {
-  width: 50%;
-  float: 100 px right;
+  width: 700%;
+  margin-left:10%;
   border: 4px double #000;
-  padding: 10px;
+  border-radius 5px:
 }
