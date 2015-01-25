@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ruby Classes</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+</head>
+
+<main>
+  <h1>Ruby Classes</h1>
+  <h4>January 25th, 2015</h4>
+
+  <section>
+    <p>
+
+    </p>
+    <pre>
+      map {|object| block} => array
+    </pre>
+    <p>
+
+    </p>
+    <pre>
+      >> teams = ['patriots', 'colts' 'seahawks', 'packers']
+
+      >> teams.map {|team| teams.capitalize}
+      => ["Patriots", "Colts", "Seahawks", "Packers"]
+      # returns an array with capitalized strings
+
+      >> team.each {|team| puts + ' are going to the conference championships'}
+      => Patriots are going to the conference championships
+      => Colts are going to the conference championships
+      => Seahawks are going to the conference championships
+      => Packers are going to the conference championships
+      # simply outputs each element in the array with added string
+    </pre>
+    <p>
+
+    </p>
+    <pre>
+      >> array = [6,7,8]
+      >> array.map {|x| x*x}
+      => [36, 49, 64]
+
+      >> cities = ['chicago', 'miami', 'honolulu']
+      >> cities.map(&:capitalize.sort)
+      => ['Chicago', 'Miami', 'Honolulu']
+    </pre>
+    <p>
+
+    </p>
+    <p>
+
+    </p>
+  </section>
+</main>
+</html>
+
