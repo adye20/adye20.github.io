@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ruby vs. JavaScript</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+</head>
+
+<main>
+  <h1>Ruby vs. JavaScript</h1>
+  <h2>Hashes vs. Objects</h2>
+  <h4>February 12th, 2015</h4>
+
+  <section>
+    <p>
+      What are Ruby Hashes? Ruby hashes are collections of key-value pairs. This is helpful when you need to map one value to another. You might want to map a set of items to information about the items. Here’s an example:
+    </p>
+    <pre>
+      car = {
+        “name” => “Porsche”,
+        “year” = > 1999,
+        “color” => “black”
+        }
+    </pre>
+    <p>
+      There are many ways to create a hash.
+    </p>
+    <pre>
+      car = Hash.new
+      car[“name”] = “Porsche”
+    </pre>
+    <p>
+      You may access each named key.
+    </p>
+    <pre>
+      car[:name]    #=> ‘Porche’
+    </pre>
+    <p>
+      What are JavaScript Objects? JavaScript objects are similar to Ruby hashes such that they both are collections of pairs. In JavaScript, they are known as a collection of properties that have names and values. Here’s an example:
+    </p>
+    <pre>
+      var car = {
+      name: “Porsche”,
+        year: 1999,
+      color: “black”
+      };
+    </pre>
+    <p>
+      You may access object properties in two ways:
+    </p>
+    <pre>
+      car.name;   //=> ‘Porsche’
+    </pre>
+    <p>
+      or
+    </p>
+    <pre>
+      car[name];  //=> ‘Porsche’
+    </pre>
+  </section>
+</main>
+</html>
+
