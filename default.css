@@ -38,25 +38,37 @@ ul {
 }
 
 #content {
-    height: 20px;
-    padding-top: 30px;
-    width: 60%;
-    margin-left:22.5%;
-    color: maroon;
-    text-align: left;
+  height: 20px;
+  padding-top: 30px;
+  width: 60%;
+  margin-left:22.5%;
+  color: maroon;
+  text-align: left;
 }
 
 #border {
-    border: 5px solid maroon;
-    border-radius: 10px;
-    width: 60%;
-    margin: 5% 20% 2%;
-    text-align: left;
+  border: 5px solid maroon;
+  border-radius: 10px;
+  width: 60%;
+  margin: 5% 20% 2%;
+  text-align: left;
+}
+
+.blogs {
+  width:80%;
+  margin:20px auto;
 }
 
 .blogposts {
-    width:80%;
-    margin:20px auto;
+}
+
+.blogtitle {
+  font-weight: bold;
+}
+
+.blogdate {
+  font-weight: normal;
+  font-size: 60%;
 }
 
 #rightsidebar {
