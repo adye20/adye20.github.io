@@ -1,33 +1,75 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>CSS Design</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
-</head>
+  <html>
+    <head>
+      <title>CSS Design</title>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+    </head>
 
-<main>
-  <h1>CSS Design</h1>
-  <h2>Classes vs. IDs</h2>
-  <h4>January 5th, 2015</h4>
+    <body>
+    <!--background and nav buttons-->
+      <div id="header">
+        <h1>Andrew Dye</h1>
+      </div>
+      <div id="navigation">
+        <ul>
+          <a href="#">
+            <p class="nav">Portfolio</p>
+          </a>
+          <a href="#">
+            <p class="nav">Experience</p>
+          </a>
+          <a href="#">
+            <p class="nav">Blog</p>
+          </a>
+          <a href="#">
+            <p class="nav">About Me</p>
+          </a>
+          <a href="#">
+            <p class="nav">Contact</p>
+          </a>
+        </ul>
+      </div>
 
-  <section>
-    <p>
-      If you are new to web designing like I am, you probably aren't aware of the differences in using Classes versus IDs in CSS.<!-- added 10px padding -->
-    </p>
-    <p>
-      First off, Classes and IDs are merely HTML selectors or tags that need to be created or set by the user in order to use CSS to style.
-    </p>
-    <p>
-      IDs are unique, such that each page can have only one element with that ID and in addition, each element can have only one ID. To simply put it, your HTML/CSS code will show errors if a user uses the same ID on more than one element. It is best to only use IDs for any elements that are only used once on a given page.
-    </p>
-    <p>
-      Classes are common, meaning that a user can set the same class on multiple elements and in reverse, a user can use multiple classes on the same element. Classes have a wider range of application as they can reuse CSS styling elements and make your code more efficient.
-    </p>
-    <p>
-      A good example of Classes versus IDs is cars versus vehicle identification numbers (VIN). Toyota makes thousands and thousands of Toyota Corollas, however, each has their own VIN to identify a particular Corolla over the thousands being built. Toyota makes all the headlights of the Corolla same and doesn't differentiate headlights by VIN as that would be highly inefficient and costly. Classes are much like a common car that a company makes. Information that can be used again should be identified using classes. IDs are much like VINs. Information that is unique should be identified using IDs
-    </p>
-  </section>
-</main>
-</html>
+      <!--blog posts-->
+      <div id="content">
+        <h3>Bloggin'</h3>
+      </div>
+      <div id="border">
+        <div class="blogs">
+          <h3>CSS Design</h3>
+          <h4>January 5th, 2015</h4>
+          <p>
+            If you are new to web designing like I am, you probably aren't aware of the differences in using Classes versus IDs in CSS.<!-- added 10px padding -->
+          </p>
+          <p>
+            First off, Classes and IDs are merely HTML selectors or tags that need to be created or set by the user in order to use CSS to style.
+          </p>
+          <p>
+            IDs are unique, such that each page can have only one element with that ID and in addition, each element can have only one ID. To simply put it, your HTML/CSS code will show errors if a user uses the same ID on more than one element. It is best to only use IDs for any elements that are only used once on a given page.
+          </p>
+          <p>
+            Classes are common, meaning that a user can set the same class on multiple elements and in reverse, a user can use multiple classes on the same element. Classes have a wider range of application as they can reuse CSS styling elements and make your code more efficient.
+          </p>
+          <p>
+            A good example of Classes versus IDs is cars versus vehicle identification numbers (VIN). Toyota makes thousands and thousands of Toyota Corollas, however, each has their own VIN to identify a particular Corolla over the thousands being built. Toyota makes all the headlights of the Corolla same and doesn't differentiate headlights by VIN as that would be highly inefficient and costly. Classes are much like a common car that a company makes. Information that can be used again should be identified using classes. IDs are much like VINs. Information that is unique should be identified using IDs
+          </p>
+        </div>
+      </div>
+
+
+      <!--right side bar: search-->
+      <div id="rightsidebar">
+      </div>
+
+      <!--footer links-->
+      <div id="footer">
+        <a href="https://twitter.com/adye20" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
+        <a href="https://www.facebook.com/amdye" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
+        <a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" /></a>
+        <a href="mailto:adye20@gmail.com"><img src="http://www.simplesharebuttons.com/images/somacro/email.png" alt="Email" /></a>
+      </div>
+    </body>
+  </html>
+
 

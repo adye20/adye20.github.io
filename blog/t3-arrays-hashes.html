@@ -1,75 +1,117 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Arrays and Hashes</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
-</head>
+  <html>
+    <head>
+      <title>Arrays and Hashes</title>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+    </head>
 
-<main>
-  <h1>Arrays and Hashes</h1>
-  <h2>A Comparison Between Indexed Collections</h2>
-  <h4>January 11th, 2015</h4>
+    <body>
+    <!--background and nav buttons-->
+      <div id="header">
+        <h1>Andrew Dye</h1>
+      </div>
+      <div id="navigation">
+        <ul>
+          <a href="#">
+            <p class="nav">Portfolio</p>
+          </a>
+          <a href="#">
+            <p class="nav">Experience</p>
+          </a>
+          <a href="#">
+            <p class="nav">Blog</p>
+          </a>
+          <a href="#">
+            <p class="nav">About Me</p>
+          </a>
+          <a href="#">
+            <p class="nav">Contact</p>
+          </a>
+        </ul>
+      </div>
 
-  <section>
-    <p>
-      What are arrays and hashes in Ruby? Ruby has what are called index collections. They are merely just structures in Ruby for storing data. Arrays and hashes both store collections of objects. Both arrays and hashes may be created as a key to support the collection of objects. Both store objects of different types, such as integers, strings, floats. <!-- added 10px padding -->
-    </p>
-    <p>
-      How do arrays work? An array can be created by initializing a set of elements between square brakets to an index. Array indexing starts at 0 and a negative index is relative to the end of the array.
-    </p>
-    <p>
-      Example of list of integers in an array:
-    </p>
-    <pre>
-      >> x = [1,2,3,4,5]
-      => [1, 2, 3, 4, 5]
-      >> x[0] #first element of the array
-      => 1
-      >> x[3] #fourth element
-      => 4
-      >> x[-1] #last element
-      => 5
-    </pre>
-    <p>
-      Example of list of strings in an array:
-    </p>
-    <pre>
-      >> x = ['Home', 'California', 'Beach', 'Sun']
-      => ["Home", "California", "Beach", "Sun"]
-      >> x[2]
-      => "Beach"
-    </pre>
-    <p>
-      Arrays can also combine a a mixture of integers and stings. Example:
-    </p>
-    <pre>
-      >> x = [20, 'Hockey', 'ice', 99, 'The Great One']
-      => [20, "Hockey", "ice", 99, "The Great One"]
-    </pre>
-    <p>
-      How do hashes work? Hashes are similar to arrays, such that they can be created by initializing a set of elements except with braces and to multiple indexes or keys. With hashes, objects are stored using the index or key and the value. The value can be retrieved by indexing the hash using the key.
-    </p>
-    <p>
-      Example of a hash:
-    </p>
-    <pre>
-      >> y = {'car' => 'BMW', 'year' => 1987, 'color' => 'white'}
-      => {"car" => "BMW", "year" => 1987, "color" => "white"}
-      >> y['color']
-      => white
-      >> y.each {|key, value| puts "The #{key} is #{value}."}
-      => The car is BMW.
-         The year is 1987.
-         The color is white.
-    </pre>
-    <p>
-      What are the differences? Arrays and hashes are very similar, however, hashes have one significant advantage over arrays. Hashes can use any object as an index or key. In addition, hashes are created with a default values if no value is specified.
-    </p>
-    <p>
-      To conclude, arrays and hashes are both used for storing data that supports multiple objects. Arrays are set to a singular index while hashes store objects, setting indexes to values.
-    </p>
-  </section>
-</main>
-</html>
+      <!--blog posts-->
+      <div id="content">
+        <h3>Bloggin'</h3>
+      </div>
+      <div id="border">
+        <div class="blogs">
+          <h3>Arrays and Hashes</h3>
+          <h4>January 11th, 2015</h4>
+          <p>
+            What are arrays and hashes in Ruby? Ruby has what are called index collections. They are merely just structures in Ruby for storing data. Arrays and hashes both store collections of objects. Both arrays and hashes may be created as a key to support the collection of objects. Both store objects of different types, such as integers, strings, floats. <!-- added 10px padding -->
+          </p>
+          <p>
+            How do arrays work? An array can be created by initializing a set of elements between square brakets to an index. Array indexing starts at 0 and a negative index is relative to the end of the array.
+          </p>
+          <p>
+            Example of list of integers in an array:
+          </p>
+          <pre>
+            >> x = [1,2,3,4,5]
+            => [1, 2, 3, 4, 5]
+            >> x[0] #first element of the array
+            => 1
+            >> x[3] #fourth element
+            => 4
+            >> x[-1] #last element
+            => 5
+          </pre>
+          <p>
+            Example of list of strings in an array:
+          </p>
+          <pre>
+            >> x = ['Home', 'California', 'Beach', 'Sun']
+            => ["Home", "California", "Beach", "Sun"]
+            >> x[2]
+            => "Beach"
+          </pre>
+          <p>
+            Arrays can also combine a a mixture of integers and stings. Example:
+          </p>
+          <pre>
+            >> x = [20, 'Hockey', 'ice', 99, 'The Great One']
+            => [20, "Hockey", "ice", 99, "The Great One"]
+          </pre>
+          <p>
+            How do hashes work? Hashes are similar to arrays, such that they can be created by initializing a set of elements except with braces and to multiple indexes or keys. With hashes, objects are stored using the index or key and the value. The value can be retrieved by indexing the hash using the key.
+          </p>
+          <p>
+            Example of a hash:
+          </p>
+          <pre>
+            >> y = {'car' => 'BMW', 'year' => 1987, 'color' => 'white'}
+            => {"car" => "BMW", "year" => 1987, "color" => "white"}
+            >> y['color']
+            => white
+            >> y.each {|key, value| puts "The #{key} is #{value}."}
+            => The car is BMW.
+               The year is 1987.
+               The color is white.
+          </pre>
+          <p>
+            What are the differences? Arrays and hashes are very similar, however, hashes have one significant advantage over arrays. Hashes can use any object as an index or key. In addition, hashes are created with a default values if no value is specified.
+          </p>
+          <p>
+            To conclude, arrays and hashes are both used for storing data that supports multiple objects. Arrays are set to a singular index while hashes store objects, setting indexes to values.
+          </p>
+        </div>
+      </div>
+
+
+      <!--right side bar: search-->
+      <div id="rightsidebar">
+      </div>
+
+      <!--footer links-->
+      <div id="footer">
+        <a href="https://twitter.com/adye20" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
+        <a href="https://www.facebook.com/amdye" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
+        <a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" /></a>
+        <a href="mailto:adye20@gmail.com"><img src="http://www.simplesharebuttons.com/images/somacro/email.png" alt="Email" /></a>
+      </div>
+    </body>
+  </html>
+
 

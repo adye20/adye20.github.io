@@ -1,6 +1,7 @@
 html {
   background-image: url("Wood Background.png");
-  background-repeat: repeat;
+  background-repeat: repeat-x;
+  background-color: #708090;
   color: white;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 20px;
@@ -24,7 +25,11 @@ body {
   height: 20px;
   width: 80%;
   font-size: 20px;
-  margin: 20px 27% 0px;
+  margin: 20px 30% 0px;
+}
+
+p {
+  font-size: 80%;
 }
 
 ul {
@@ -42,14 +47,18 @@ ul {
   height: 20px;
   padding-top: 30px;
   width: 60%;
-  margin-left: 33%;
+  margin-left:22.5%;
   color: maroon;
   text-align: left;
 }
 
 #border {
+  background-color: #D6D6D6;
+  background-repeat: repeat-x;
+  color: #000000;
+  border: solid #D6D6D6;
   width: 60%;
-  margin: 4% 28% 2%;
+  margin: 5% 20% 2%;
   text-align: left;
 }
 
@@ -68,7 +77,7 @@ ul {
 
 #footer {
   width: 50%;
-  margin: 10px 35% 20px;
+  margin: 10px 40% 20px;
 }
 
 a:link {
@@ -79,12 +88,4 @@ a:link {
 a:visited {
   color: white;
   text-decoration: none;
-}
-
-.blogtitle {
-  font-weight: bold;
-}
-
-.blogdate {
-  font-size: 60%;
 }
