@@ -1,144 +1,20 @@
-<!DOCTYPE html>
-  <html>
-    <head>
-      <title>A.Dye's Website</title>
-      <meta charset="UTF-8">
-      <link rel="stylesheet" type="text/css" href="default.css">
-    </head>
+---
+layout: default
+---
 
-    <body>
-    <!--background and nav buttons-->
-      <div id="header">
-        <h1>Andrew Dye</h1>
-      </div>
-      <div id="navigation">
-        <ul>
-          <a href="#">
-            <p class="nav">Portfolio</p>
-          </a>
-          <a href="#">
-            <p class="nav">Experience</p>
-          </a>
-          <a href="#">
-            <p class="nav">Blog</p>
-          </a>
-          <a href="#">
-            <p class="nav">About Me</p>
-          </a>
-          <a href="#">
-            <p class="nav">Contact</p>
-          </a>
-        </ul>
-      </div>
+<div class="home">
 
-      <!--blog posts-->
-      <div id="content">
-        <h3>Bloggin'</h3>
-      </div>
-      <div id="border">
-        <div class="blogs">
-          <a href="blog/c9-questions.html">
-            <p class="blogposts">
-              <span class="blogtitle">Questions</span><span class="blogdate">February 18th, 2015</span>
-            </p>
-          </a>
-          <a href="cheat-sheet.html">
-            <p class="blogposts">
-              <span class ="blogtitle">Cheat Sheet</span><span class="blogdate">February 13th, 2015</span>
-            </p>
-          </a>
-          <a href="blog/c8-conflict.html">
-            <p class="blogposts">
-              <span class ="blogtitle">Conflict</span><span class="blogdate">February 11th, 2015</span>
-            </p>
-          </a>
-          <a href="blog/t8-tech.html">
-            <p class="blogposts">
-              <span class ="blogtitle">Tech</span><span class="blogdate">February 11th, 2015</span>
-            </p>
-          </a>
-          <a href="blog/c7-values.html">
-            <p class="blogposts">
-              <span class ="blogtitle">Values</span><span class="blogdate">February 17th, 2015</span>
-            </p>
-          </a>
-          <a href="blog/t7-JavaScript.html">
-            <p class="blogposts">
-              <span class ="blogtitle">Ruby vs. JavaScript</span><span class="blogdate">February 7th, 2015</span>
-            </p>
-          </a>
-          <a href="blog/c6-stereotype-threat.html">
-            <p class="blogposts">
-              <span class ="blogtitle">Stereotype Threat</span><span class="blogdate">February 1st, 2015</span>
-            </p>
-          </a>
-          <a href="blog/t6-oop-concepts.html">
-            <p class="blogposts">
-              <span class ="blogtitle">Object-Oriented Programming Concepts</span><span class="blogdate">February 1st, 2015</span>
-            </p>
-          </a>
-          <a href="blog/c5-feedback.html">
-            <p class="blogposts">
-              <span class ="blogtitle">Pairing & Feedback</span><span class="blogdate">January 25th, 2015</span>
-            </p>
-          </a>
-          <a href="blog/t5-ruby-classes.html">
-            <p class="blogposts">
-              <span class ="blogtitle">Ruby Classes</span><span class="blogdate">January 25th, 2015</span>
-            </p>
-          </a>
-          <a href="blog/c4-tech-issues.html">
-            <p class="blogposts">
-              <span class ="blogtitle">Tech Issues</span><span class="blogdate">January 18th, 2015</span>
-            </p>
-          </a>
-          <a href="blog/t4-enumerable-methods.html">
-            <p class="blogposts">
-              <span class ="blogtitle">Enumerable Methods</span><span class="blogdate">January 18th, 2015</span>
-            </p>
-          </a>
-          <a href="blog/c3-thinking-style.html">
-            <p class="blogposts">
-              <span class ="blogtitle">Thinking Style</span><span class="blogdate">January 11th, 2015</span>
-            </p>
-          </a>
-          <a href="blog/t3-arrays-hashes.html">
-            <p class="blogposts">
-              <span class ="blogtitle">Arrays & Hashes</span><span class="blogdate">January 11th, 2015</span>
-            </p>
-          </a>
-          <a href="../phase-0-unit-1/week-3/9-gps1-2/gps1-2.html">
-            <p class="blogposts">
-              <span class ="blogtitle">GPS 2.1</span><span class="blogdate">January 10th, 2015</span>
-            </p>
-          </a>
-          <a href="blog/t2-css-design.html">
-            <p class="blogposts">
-              <span class ="blogtitle">CSS Design</span><span class="blogdate">January 5th, 2015</span>
-            </p>
-          </a>
-          <a href="blog/c1-chefs-kitchen.html">
-            <p class="blogposts">
-              <span class ="blogtitle">Chef's Kitchen</span><span class="blogdate">December 13th, 2014</span>
-            </p>
-          </a>
-          <a href="blog/t1-git-blog.html">
-            <p class="blogposts">
-              <span class ="blogtitle">Git Blog</span><span class="blogdate">December 13th, 2014</span>
-            </p>
-          </a>
-        </div>
-      </div>
+  <h1>Posts</h1>
 
-      <div id="rightsidebar">
-      </div>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 
-      <!--footer links-->
-      <div id="footer">
-        <a href="https://twitter.com/adye20" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
-        <a href="https://www.facebook.com/amdye" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
-        <a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" /></a>
-        <a href="mailto:adye20@gmail.com"><img src="http://www.simplesharebuttons.com/images/somacro/email.png" alt="Email" /></a>
-      </div>
-    </body>
-  </html>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
