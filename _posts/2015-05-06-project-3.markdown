@@ -1,0 +1,13 @@
+---
+title: Cross-Check
+subtitle: Ice Hockey Web Application
+layout: default
+modal-id: 3
+date: 2015-05-06
+img: golden.png
+thumbnail: golden-thumbnail.png
+alt: image-alt
+project-date: April 2015
+category: Web Development
+description: Cross-Check allows the users to look up the nearest ice hockey rink in Northern California and provides a list of hockey coaches for that particular hockey rink. Additionally, coaches can create a profile and add their experience and contact info for hockey players who are looking to start playing ice hockey or refine their skills. Cross-Check was engineered in Ruby with Sinatra, and using the Google Maps API.
+---

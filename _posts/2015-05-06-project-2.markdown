@@ -1,0 +1,14 @@
+---
+title: GoT (Game of Thrones) Faker
+subtitle: Ruby Gem
+layout: default
+modal-id: 2
+date: 2015-05-06
+img: escape.png
+thumbnail: escape-thumbnail.png
+alt: image-alt
+project-date: April 2015
+category: Web Development
+description: GoT Faker is a Ruby gem to generate fake Game of Thrones data.
+
+---

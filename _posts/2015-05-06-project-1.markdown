@@ -1,0 +1,14 @@
+---
+title: Intergalactic VR
+subtitle: Virtual Reality
+layout: default
+modal-id: 1
+date: 2015-05-06
+img: dreams.png
+thumbnail: dreams-thumbnail.png
+alt: image-alt
+project-date: April 2015
+category: Web Development
+description: Intergalactic VR is a virtual reality experience for for iOS/Android and Google Cardboard. The experience takes you on a virtual reality tour of a facility with a car garage, and into space displaying an audio visualizer completely created with 3D objects.Intergalactic VR was engineered in JavaScript with Three.js, WebGL, and Web Audio API.
+
+---
