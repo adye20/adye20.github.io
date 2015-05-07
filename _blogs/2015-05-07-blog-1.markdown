@@ -1,0 +1,10 @@
+---
+title: Graduated Dev Bootcamp
+layout: default
+modal-id: 1
+date: 2015-05-07
+blog-date: April 2015
+description: It has been a fun and awesome 19 weeks at DBC. I learned so much and made so many connections. It is ridiculous to think how far I've come. Now, I feel more confident than ever in my ability to move on to the next phase of my web development career.
+
+---
+
