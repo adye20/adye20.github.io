@@ -4,8 +4,8 @@ subtitle: Ice Hockey Web Application
 layout: default
 modal-id: 3
 date: 2015-05-06
-img: golden.png
-thumbnail: golden-thumbnail.png
+img: crosscheck.jpg
+thumbnail: crosscheck-TN.jpg
 alt: image-alt
 project-date: April 2015
 category: Web Development

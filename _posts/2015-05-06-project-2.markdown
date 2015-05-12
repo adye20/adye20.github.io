@@ -4,8 +4,8 @@ subtitle: Ruby Gem
 layout: default
 modal-id: 2
 date: 2015-05-06
-img: escape.png
-thumbnail: escape-thumbnail.png
+img: gotfaker.jpg
+thumbnail: gotfaker-TN.jpg
 alt: image-alt
 project-date: April 2015
 category: Web Development

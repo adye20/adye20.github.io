@@ -4,8 +4,8 @@ subtitle: Virtual Reality
 layout: default
 modal-id: 1
 date: 2015-05-06
-img: dreams.png
-thumbnail: dreams-thumbnail.png
+img: intergalacticVR.jpg
+thumbnail: intergalacticVR-TN.jpg
 alt: image-alt
 project-date: April 2015
 category: Web Development
