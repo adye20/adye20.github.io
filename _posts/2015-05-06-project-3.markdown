@@ -1,13 +1,14 @@
 ---
-title: Cross-Check
-subtitle: Ice Hockey Web Application
+title: Intergalactic VR
+subtitle: Virtual Reality
 layout: default
 modal-id: 3
 date: 2015-05-06
-img: crosscheck.jpg
-thumbnail: crosscheck-TN.jpg
+img: intergalacticVR.jpg
+thumbnail: intergalacticVR-TN.jpg
 alt: image-alt
 project-date: April 2015
 category: Web Development
-description: Cross-Check allows the users to look up the nearest ice hockey rink in Northern California and provides a list of hockey coaches for that particular hockey rink. Additionally, coaches can create a profile and add their experience and contact info for hockey players who are looking to start playing ice hockey or refine their skills. Cross-Check was engineered in Ruby with Sinatra, and using the Google Maps API.
+description: Intergalactic VR is a virtual reality experience for for iOS/Android and Google Cardboard. The experience takes you on a virtual reality tour of a facility with a car garage, and into space displaying an audio visualizer completely created with 3D objects.Intergalactic VR was engineered in JavaScript with Three.js, WebGL, and Web Audio API.
+
 ---
